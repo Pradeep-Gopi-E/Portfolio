@@ -1,0 +1,152 @@
+{
+    "Metadata": {
+        "title": "Pradeep Gopi | AI Engineer & Platform Architect",
+        "description": "Portfolio of Pradeep Gopi - Research, DevOps, and Full-Stack Engineering."
+    },
+    "Locale": {
+        "code": "en"
+    },
+    "Hero": {
+        "role": "Applied Machine Learning Engineer",
+        "tagline": "Bridging the gap between experimental research and practical implementation.",
+        "cta_resume": "View Resume",
+        "cta_contact": "Contact Me"
+    },
+    "Nav": {
+        "home": "Home",
+        "skills": "Expertise",
+        "projects": "Projects",
+        "experience": "Experience"
+    },
+    "Skills": {
+        "title": "Technical Expertise",
+        "languages": "Languages",
+        "ai_tools": "AI/ML Tools",
+        "frameworks": "Dev Frameworks",
+        "cloud": "Cloud Tech"
+    },
+    "Projects": {
+        "title": "Selected Works",
+        "view_code": "View Code",
+        "launch_app": "Launch App",
+        "All": "All",
+        "AI Research": "AI Research",
+        "Applied ML": "Applied ML",
+        "DevOps": "DevOps",
+        "MLOps": "MLOps",
+        "items": {
+            "latent_diffusion": {
+                "description": "Experimental pipeline for privacy-preserving anonymization using Stable Diffusion and ControlNet."
+            },
+            "packvote": {
+                "description": "Prototype AI-powered group travel planner utilizing Ranked-Choice Voting and iterative chunking."
+            },
+            "paligemma": {
+                "description": "Fine-tuning pipeline adapting Google's Vision-Language Model for industrial object detection."
+            },
+            "gcp_gitops": {
+                "description": "Reference CI/CD workflow automating deployments from code commit to production on GKE."
+            },
+            "zero_shot": {
+                "description": "Thesis implementation utilizing VLM (CLIP, PaliGemma) for zero-shot defect detection."
+            },
+            "tf_serving": {
+                "description": "Benchmarking scalable ML serving architectures with HPA autoscaling and Locust load testing."
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Endorsements",
+        "subtitle": "Feedback from supervisors and research leaders.",
+        "hfu_quote": "Throughout his thesis work, Mr. Gopi demonstrated exceptional technical competence and a remarkable aptitude for cutting-edge artificial intelligence research.",
+        "hfu_role": "Academic & Researcher (AI/ML), Furtwangen University",
+        "fzi_quote": "Through his logical and analytical thinking skills, he found independent, balanced, and accurate solutions even for difficult problems.",
+        "fzi_role": "Department Head, FZI Research Center"
+    },
+    "Publications": {
+        "title": "Publications",
+        "subtitle": "Research papers and academic contributions.",
+        "items": {
+            "federated_learning": {
+                "title": "Federated Learning: A necessity for Agriculture",
+                "description": "Exploring the potential of Federated Learning to revolutionize agricultural data privacy and efficiency."
+            },
+            "dark_luxury": {
+                "title": "Beyond Syntax: Orchestrating a “Dark Luxury” Portfolio",
+                "description": "A deep dive into building a high-end, AI-assisted developer portfolio using Antigravity & Claude."
+            }
+        }
+    },
+    "Experience": {
+        "title": "Professional Journey",
+        "jobs": {
+            "fzi": {
+                "role": "Research Assistant",
+                "summary": "Specialized in privacy-preserving AI for autonomous driving, focusing on Latent Diffusion Models and GDPR compliance.",
+                "achievements": [
+                    "Designed Deep Learning pipeline for ITS & GDPR-compliant anonymization.",
+                    "Achieved 19% higher mAP with Latent Diffusion Models compared to GANs.",
+                    "Anonymized 100% of faces (3,765) in Cityscapes with high semantic integrity.",
+                    "Integrated ControlNet to replace WebUI, enhancing automation."
+                ]
+            },
+            "hfu": {
+                "role": "Research Assistant",
+                "summary": "Engineered high-precision embedded systems and motion planning algorithms for robotics application.",
+                "achievements": [
+                    "Designed a closed-loop robot feedback system achieving sub-millimeter positional accuracy under real-time constraints.",
+                    "Implemented and optimized inverse kinematics–based motion planning, reducing trajectory error and improving repeatability across test runs.",
+                    "Developed embedded control logic for actuators and sensors, balancing latency, precision, and stability.",
+                    "Validated algorithms through iterative hardware prototyping and bench testing."
+                ]
+            }
+        }
+    },
+    "About": {
+        "title": "My Journey",
+        "p1": "Specializing in Applied Machine Learning and Research Engineering, I focus on bridging the gap between theoretical research and practical implementation. I leverage my full-stack background primarily to operationalize ML systems, building the necessary tools and interfaces to make models usable and testable.",
+        "p2": "My expertise lies in developing end-to-end experimental pipelines and internal prototypes. Rather than managing large-scale legacy platforms, I thrive in the iterative process of taking a concept from a research paper and engineering a deployable, reproducible proof-of-concept.",
+        "p3": "Beyond engineering, I am deeply committed to the open-source community and continuous learning. I actively contribute to research in computer vision and stay engaged with the latest developments in generative AI.",
+        "stats": {
+            "projects": "Projects Completed",
+            "experience": "Professional Experience",
+            "tech": "Technologies Mastered"
+        },
+        "how_i_work": {
+            "clean_code": {
+                "title": "Clean Code",
+                "description": "Maintainable, scalable, and self-documenting architectures."
+            },
+            "innovation": {
+                "title": "Innovation",
+                "description": "Leveraging state-of-the-art AI to solve complex problems."
+            },
+            "collaboration": {
+                "title": "Collaboration",
+                "description": "Effective communication and teamwork in agile environments."
+            },
+            "performance": {
+                "title": "Performance",
+                "description": "Optimizing algorithms and pipelines for maximum efficiency."
+            }
+        }
+    },
+    "Contact": {
+        "title": "Send Message",
+        "subtitle": "Interested in working together or have a question? Fill out the form below and I'll get back to you as soon as possible.",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "placeholder_name": "John Doe",
+        "placeholder_email": "john@example.com",
+        "placeholder_subject": "Project Inquiry",
+        "placeholder_message": "Tell me about your project...",
+        "send": "Send Message",
+        "info_title": "Contact Info",
+        "follow_title": "Follow Me"
+    },
+    "Footer": {
+        "rights": "Pradeep Gopi. All rights reserved."
+    }
+}

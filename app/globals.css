@@ -1,26 +1,50 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 5, 5, 5;
+  --background-end-rgb: 5, 5, 5;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 5, 5, 5;
+    --background-end-rgb: 5, 5, 5;
   }
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: #050510;
+  /* Match canvas background */
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- Critical Fix for Neural Background --- */
+/* Ensure all main sections are transparent so the canvas shows through */
+section,
+header,
+footer,
+main,
+.section {
+  background-color: transparent !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Update glass class to be more subtle if needed */
+  .glass {
+    @apply bg-zinc-900/40 backdrop-blur-md border border-white/5 shadow-xl;
+  }
 }

@@ -1,0 +1,10 @@
+const icons = require('simple-icons');
+console.log('Sample keys:', Object.keys(icons).slice(0, 5));
+const google = Object.keys(icons).filter(k => k.match(/google/i));
+console.log('Google matches:', google.slice(0, 5));
+const amazon = Object.keys(icons).filter(k => k.match(/amazon/i));
+console.log('Amazon matches:', amazon);
+const siA = Object.keys(icons).filter(k => k.startsWith('siA')).slice(0, 10);
+console.log('siA keys:', siA);
+const A = Object.keys(icons).filter(k => k.startsWith('A')).slice(0, 10);
+console.log('A keys:', A);

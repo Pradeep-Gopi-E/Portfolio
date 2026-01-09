@@ -1,0 +1,152 @@
+{
+    "Metadata": {
+        "title": "Pradeep Gopi | KI-Ingenieur & Plattform-Architekt",
+        "description": "Portfolio von Pradeep Gopi - Forschung, DevOps und Full-Stack-Engineering."
+    },
+    "Locale": {
+        "code": "de"
+    },
+    "Hero": {
+        "role": "Applied Machine Learning Engineer",
+        "tagline": "Die Brücke zwischen experimenteller Forschung und praktischer Umsetzung schlagen.",
+        "cta_resume": "Lebenslauf ansehen",
+        "cta_contact": "Kontaktieren"
+    },
+    "Nav": {
+        "home": "Startseite",
+        "skills": "Expertise",
+        "projects": "Projekte",
+        "experience": "Erfahrung"
+    },
+    "Skills": {
+        "title": "Technische Expertise",
+        "languages": "Sprachen",
+        "ai_tools": "KI/ML Tools",
+        "frameworks": "Entwickler-Frameworks",
+        "cloud": "Cloud-Technologien"
+    },
+    "Projects": {
+        "title": "Ausgewählte Arbeiten",
+        "view_code": "Code ansehen",
+        "launch_app": "App Starten",
+        "All": "Alle",
+        "AI Research": "KI-Forschung",
+        "Applied ML": "Applied ML",
+        "DevOps": "DevOps",
+        "MLOps": "MLOps",
+        "items": {
+            "latent_diffusion": {
+                "description": "Experimentelle Pipeline zur datenschutzfreundlichen Anonymisierung mit Stable Diffusion und ControlNet."
+            },
+            "packvote": {
+                "description": "Prototyp eines KI-gestützten Gruppenreiseplaners mit Ranked-Choice Voting und iterativer Chunking-Methode."
+            },
+            "paligemma": {
+                "description": "Fine-Tuning-Pipeline zur Anpassung von Googles Vision-Language Model für industrielle Objekterkennung."
+            },
+            "gcp_gitops": {
+                "description": "Referenz-CI/CD-Workflow zur Automatisierung von Deployments vom Code-Commit bis zur Produktion auf GKE."
+            },
+            "zero_shot": {
+                "description": "Masterarbeit: Implementierung von VLM (CLIP, PaliGemma) zur Zero-Shot-Fehlererkennung in der Fertigung."
+            },
+            "tf_serving": {
+                "description": "Benchmarking skalierbarer ML-Bereitstellungsarchitekturen mit HPA-Autoscaling und Locust-Lasttests."
+            }
+        }
+    },
+    "Testimonials": {
+        "title": "Empfehlungen",
+        "subtitle": "Feedback von Betreuern und Forschungsleitern.",
+        "hfu_quote": "Im Rahmen seiner Thesis bewies Herr Gopi außergewöhnliche Fachkompetenz und eine bemerkenswerte Eignung für spitzenaktuelle KI-Forschung.",
+        "hfu_role": "Wissenschaftlicher Mitarbeiter (KI/ML), Hochschule Furtwangen",
+        "fzi_quote": "Durch sein logisches und analytisches Denkvermögen fand er auch für schwierige Probleme eigenständige, abgewogene und zutreffende Lösungen.",
+        "fzi_role": "Abteilungsleiter, FZI Forschungszentrum"
+    },
+    "Publications": {
+        "title": "Publikationen",
+        "subtitle": "Forschungsarbeiten und akademische Beiträge.",
+        "items": {
+            "federated_learning": {
+                "title": "Federated Learning: A necessity for Agriculture",
+                "description": "Untersuchung des Potenzials von Federated Learning zur Revolutionierung von Datenschutz und Effizienz in der Landwirtschaft."
+            },
+            "dark_luxury": {
+                "title": "Beyond Syntax: Orchestrating a “Dark Luxury” Portfolio",
+                "description": "Ein tiefer Einblick in die Erstellung eines hochwertigen, KI-gestützten Entwickler-Portfolios mit Antigravity & Claude."
+            }
+        }
+    },
+    "Experience": {
+        "title": "Beruflicher Werdegang",
+        "jobs": {
+            "fzi": {
+                "role": "Wissenschaftlicher Mitarbeiter",
+                "summary": "Spezialisiert auf datenschutzbewusste KI für autonomes Fahren, mit Schwerpunkt auf Latent Diffusion Models und DSGVO-Konformität.",
+                "achievements": [
+                    "Entwicklung einer Deep Learning Pipeline für ITS & DSGVO-konforme Anonymisierung.",
+                    "Erreichte 19% höheren mAP mit Latent Diffusion Models im Vergleich zu GANs.",
+                    "100% der Gesichter (3.765) in Cityscapes mit hoher semantischer Integrität anonymisiert.",
+                    "Integration von ControlNet als Ersatz für WebUI zur Verbesserung der Automatisierung."
+                ]
+            },
+            "hfu": {
+                "role": "Wissenschaftlicher Mitarbeiter",
+                "summary": "Entwicklung hochpräziser eingebetteter Systeme und Bewegungsplanungsalgorithmen für Robotikanwendungen.",
+                "achievements": [
+                    "Entwicklung eines Closed-Loop-Roboter-Feedbacksystems mit Sub-Millimeter-Genauigkeit in Echtzeit.",
+                    "Implementierung und Optimierung von Inverser Kinematik für die Bewegungsplanung, was Trajektorienfehler reduzierte.",
+                    "Entwicklung eingebetteter Steuerungslogik für Aktuatoren und Sensoren, unter Berücksichtigung von Latenz und Stabilität.",
+                    "Validierung der Algorithmen durch iteratives Hardware-Prototyping."
+                ]
+            }
+        }
+    },
+    "About": {
+        "title": "Meine Reise",
+        "p1": "Spezialisiert auf Applied Machine Learning und Research Engineering, konzentriere ich mich darauf, die Lücke zwischen theoretischer Forschung und praktischer Umsetzung zu schließen. Meinen Full-Stack-Hintergrund nutze ich primär, um ML-Systeme zu operationalisieren und die notwendigen Werkzeuge zu bauen, die Modelle nutzbar machen.",
+        "p2": "Meine Expertise liegt in der Entwicklung von experimentellen End-to-End-Pipelines und internen Prototypen. Anstatt große Legacy-Plattformen zu verwalten, blühe ich im iterativen Prozess auf: von der Forschungsidee hin zu einem deploybaren, reproduzierbaren Proof-of-Concept.",
+        "p3": "Jenseits des Engineerings engagiere ich mich stark in der Open-Source-Community und bilde mich kontinuierlich weiter. Ich trage aktiv zur Forschung im Bereich Computer Vision bei und bleibe über die neuesten Entwicklungen der generativen KI auf dem Laufenden.",
+        "stats": {
+            "projects": "Abgeschlossene Projekte",
+            "experience": "Berufserfahrung",
+            "tech": "Beherrschte Technologien"
+        },
+        "how_i_work": {
+            "clean_code": {
+                "title": "Clean Code",
+                "description": "Wartbare, skalierbare und selbstdokumentierende Architekturen."
+            },
+            "innovation": {
+                "title": "Innovation",
+                "description": "Nutzung modernster KI zur Lösung komplexer Probleme."
+            },
+            "collaboration": {
+                "title": "Zusammenarbeit",
+                "description": "Effektive Kommunikation und Teamarbeit in agilen Umgebungen."
+            },
+            "performance": {
+                "title": "Leistung",
+                "description": "Optimierung von Algorithmen und Pipelines für maximale Effizienz."
+            }
+        }
+    },
+    "Contact": {
+        "title": "Nachricht senden",
+        "subtitle": "Interessiert an einer Zusammenarbeit oder haben Sie eine Frage? Füllen Sie das Formular unten aus und ich melde mich so schnell wie möglich.",
+        "name": "Name",
+        "email": "E-Mail",
+        "subject": "Betreff",
+        "message": "Nachricht",
+        "placeholder_name": "Ihr Name",
+        "placeholder_email": "ihre@email.com",
+        "placeholder_subject": "Projektanfrage",
+        "placeholder_message": "Erzählen Sie mir von Ihrem Projekt...",
+        "send": "Nachricht senden",
+        "info_title": "Kontaktinfo",
+        "follow_title": "Folgen Sie mir"
+    },
+    "Footer": {
+        "rights": "Pradeep Gopi. Alle Rechte vorbehalten."
+    }
+}
