@@ -4,6 +4,8 @@ import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { Analytics } from "@vercel/analytics/react";
+
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -35,6 +37,7 @@ export default async function RootLayout({
       <body className={`${inter.variable} bg-background text-white antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
