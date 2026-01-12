@@ -16,7 +16,9 @@
         "home": "Startseite",
         "skills": "Expertise",
         "projects": "Projekte",
-        "experience": "Erfahrung"
+        "experience": "Erfahrung",
+        "publications": "Publikationen",
+        "contact": "Kontakt"
     },
     "Skills": {
         "title": "Technische Expertise",

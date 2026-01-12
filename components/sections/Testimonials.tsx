@@ -14,14 +14,14 @@ export const Testimonials = () => {
             quote: t('hfu_quote'),
             source: "Manav Madan",
             role: t('hfu_role'),
-            documentLink: "/documents/hfu-letter.pdf"
+            documentLink: "/Recommendation-Letter-PradeepGopi.pdf"
         },
         {
             id: "fzi",
             quote: t('fzi_quote'),
             source: "Dr. Ing. Ömer Sahin Tas",
             role: t('fzi_role'),
-            documentLink: "/documents/fzi-letter.pdf"
+            documentLink: "/Zeugnis_compressed.pdf"
         }
     ];
 

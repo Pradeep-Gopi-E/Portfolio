@@ -77,7 +77,7 @@ export const projects = [
     },
     {
         id: "packvote",
-        title: "PackVote (Optigo)",
+        title: "Cohere",
         description: "Prototype AI-powered group travel planner utilizing Ranked-Choice Voting and iterative chunking.",
         tech: ["Next.js", "FastAPI", "Gemini", "Supabase", "Tailwind"],
         category: "Applied ML",

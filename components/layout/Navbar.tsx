@@ -29,6 +29,8 @@ export function Navbar() {
         { name: t("skills"), href: "#skills" },
         { name: t("projects"), href: "#projects" },
         { name: t("experience"), href: "#experience" },
+        { name: t("publications"), href: "#publications" },
+        { name: t("contact"), href: "#contact" },
     ];
 
     return (

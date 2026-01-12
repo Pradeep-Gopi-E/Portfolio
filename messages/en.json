@@ -16,7 +16,9 @@
         "home": "Home",
         "skills": "Expertise",
         "projects": "Projects",
-        "experience": "Experience"
+        "experience": "Experience",
+        "publications": "Publications",
+        "contact": "Contact"
     },
     "Skills": {
         "title": "Technical Expertise",

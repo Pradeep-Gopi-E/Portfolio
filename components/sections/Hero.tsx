@@ -49,7 +49,7 @@ export function Hero() {
                         </Button>
 
                         <a
-                            href={locale === 'de' ? '/resume-de.pdf' : '/resume-en.pdf'}
+                            href={locale === 'de' ? '/CV_Pradeep_Gopi_de.pdf' : '/CV_Pradeep_Gopi_en.pdf'}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center justify-center rounded-full px-8 py-3 bg-transparent border border-white/10 hover:border-[#00ADB5]/50 hover:text-[#00ADB5] hover:bg-[#00ADB5]/10 backdrop-blur-sm transition-all text-white"
